@@ -1,8 +1,17 @@
-<h1>Pig Latinizer!</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+    <h1>Pig Latinizer!</h1>
 
-<form method="post" action="/piglatinize">
-  <p>Enter your phrase:</p>
-  <textarea name="user_phrase"></textarea>
-  <br>
-  <button type="submit" value="submit">Submit</button>
-</form>
+    <form action="/piglatinize" method="POST">
+    <label for="user_phrase"> Enter your phrase: </label>
+    <input type="text" name="user_phrase" id="user_phrase">
+    <p> <input type="submit" value="Submit"> </p>
+    </form>
+
+  </body>
+</html>
